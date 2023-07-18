@@ -7,6 +7,16 @@
     .banner-container{
         flex-direction: column;
     }
+    .main-part{
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: 80px;
+        margin-top: 20px;
+
+
+    }
+    
 }
 
 /* tab devices */
@@ -14,6 +24,15 @@
     .banner{
         flex-direction: column;
         
+    }
+    .main-part{
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: 80px;
+        margin-top: 20px;
+
+
     }
     
 }
