@@ -1,0 +1,19 @@
+/* mobile devices */
+@media screen and (max-width:425px) {
+    .banner{
+        flex-direction: column;
+        
+    }
+    .banner-container{
+        flex-direction: column;
+    }
+}
+
+/* tab devices */
+@media screen  and (min-width:425px) and (max-width:768px) {
+    .banner{
+        flex-direction: column;
+        
+    }
+    
+}

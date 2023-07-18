@@ -1,0 +1,48 @@
+body {
+    font-family: Work Sans;
+}
+
+.banner-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   background-color: #FFF;
+}
+
+.banner-img {
+    height: 20px;
+}
+
+.banner-container {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+
+}
+
+.banner-container a {
+    text-decoration: none;
+    color: #3C354F;
+}
+
+.gamer {
+    color: #FF42A5;
+}
+
+.banner-btn {
+    background: rgba(11, 2, 35, 0.10);
+    padding: 10px 15px;
+    border-radius: 5px;
+    
+}
+.icon{
+    width: 20px;
+    padding-left: 5px;
+    
+}
