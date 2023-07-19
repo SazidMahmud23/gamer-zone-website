@@ -1,5 +1,5 @@
 /* mobile devices */
-@media screen and (max-width:425px) {
+@media screen and (max-width: 425px) {
     .banner{
         flex-direction: column;
         
@@ -18,5 +18,15 @@
     flex-direction: column;
     margin-left: 100px;
  }
- 
+ .no-install{
+   flex-direction: column;
+    
+}
+.ghora{
+margin-left: 150px;
+}
+.play-online{
+    margin-left: 0%;
+
+}
 }

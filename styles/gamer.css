@@ -132,3 +132,39 @@ body {
 .online{
     font-size: 30px;
 }
+
+
+/* install */
+.ghora{
+   
+    position: relative;
+    margin-right: 150px;
+}
+.dall{
+    width: 130px;
+   
+
+}
+.no-install{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+}
+.play{
+    color: #FF42A5;
+}
+.ghora-men{
+    width: 300px;
+    height: 300px;
+}
+.cute-dall{
+    position: absolute;
+    bottom: -30px;
+    left: -40px;
+}
+.play-online{
+    margin-left: 200px;
+    padding-bottom: 40px;
+
+}
