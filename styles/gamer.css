@@ -102,5 +102,33 @@ body {
     border: 0;
     background: #4EC5F7;
     border-radius: 30px;
+    color: #FFF;
     
+}
+/* Online gaming funny */
+.online-game-title{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    text-align: center;
+    
+}
+.pelu{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+.pelu img{
+    height: 260px;
+
+}
+.funny{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.online{
+    font-size: 30px;
 }
