@@ -29,4 +29,24 @@ margin-left: 150px;
     margin-left: 0%;
 
 }
+.mobile-play-ground{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+.play-ground{
+    display: none;
+}
+}
+@media screen and (min-width:426px) {
+    .play-ground{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        
+    }
+    .mobile-play-ground{
+        display: none;
+    }
 }

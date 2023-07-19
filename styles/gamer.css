@@ -62,7 +62,7 @@ body {
 }
 
 .main-part {
-    
+
     display: flex;
     justify-content: space-around;
     background-color: #FFF;
@@ -75,7 +75,7 @@ body {
     height: 300px;
     margin-right: 80px;
     padding-top: 20px;
-    
+
 }
 
 .goat {
@@ -85,9 +85,10 @@ body {
     -webkit-text-fill-color: transparent;
     font-size: 40px;
     margin: 0;
-    
+
 }
-.main-btn{
+
+.main-btn {
     width: 85px;
     height: 30px;
     background-color: #FF42A5;
@@ -95,7 +96,8 @@ body {
     border-radius: 30px;
     color: white;
 }
-.main-btn-1{
+
+.main-btn-1 {
     width: 85px;
     height: 30px;
     margin-left: 10px;
@@ -103,68 +105,113 @@ body {
     background: #4EC5F7;
     border-radius: 30px;
     color: #FFF;
-    
+
 }
+
 /* Online gaming funny */
-.online-game-title{
+.online-game-title {
     display: flex;
     justify-content: center;
     margin-top: 30px;
     text-align: center;
-    
+
 }
-.pelu{
+
+.pelu {
     display: flex;
     justify-content: center;
     gap: 20px;
 
 }
-.pelu img{
+
+.pelu img {
     height: 260px;
 
 }
-.funny{
+
+.funny {
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.online{
+
+.online {
     font-size: 30px;
 }
 
 
 /* install */
-.ghora{
-   
+.ghora {
+
     position: relative;
     margin-right: 150px;
 }
-.dall{
+
+.dall {
     width: 130px;
-   
+
 
 }
-.no-install{
+
+.no-install {
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin-top: 10px;
 }
-.play{
+
+.play {
     color: #FF42A5;
 }
-.ghora-men{
+
+.ghora-men {
     width: 300px;
     height: 300px;
 }
-.cute-dall{
+
+.cute-dall {
     position: absolute;
     bottom: -30px;
     left: -40px;
 }
-.play-online{
+
+.play-online {
     margin-left: 200px;
     padding-bottom: 40px;
 
+}
+
+/* play ground */
+
+.more-ground{
+    display: flex;
+    gap: 10px;
+    margin-top: 40px;
+    align-items: center;
+}
+.more-ground:hover{
+
+border-radius: 40px;
+border: 2px solid #FF42A5;
+padding: 2px 4px;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.footer-bg{
+    border: 1px solid;
+    background: #0B0223;
+    margin-top: 20px;
+    color: #FFF;
+}
+.end{
+    display: flex;
+    justify-content: center;
+}
+.game{
+    color: #FF42A5;
 }
